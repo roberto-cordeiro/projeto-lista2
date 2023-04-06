@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stye.css">
+    <link rel="icon" href="./images/favi.png">
+    <script src="./script/script.js"></script>
+    <title>Lista Javascript - Exercício 3</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ex01.html">1</a></li>
+            <li><a href="ex02.html">2</a></li>
+            <li><a id="pagina" href="#">3</a></li>
+            <li><a href="ex04.html">4</a></li>
+            <li><a href="ex05.html">5</a></li>
+            <li><a href="ex06.html">6</a></li>
+            <li><a href="ex07.html">7</a></li>
+            <li><a href="ex08.html">8</a></li>
+        </ul>
+    </nav>
+    <header>
+
+    </header>
+    <section>
+        <article id="container-exercises">
+            <div id="img-cod">
+                <figcaption>
+                    <a href=""><img src="./images/exe03.png" alt="imagem-codigo"></a>
+                    <label id="texto" for="">Passe o mouse</label>
+                </figcaption>
+
+
+            </div>
+            <h2> (3) Faça um programa que gere um número aleatório entre 1 e 10, esse número é o número 'ganhador'. Então ele
+                também irá gerar um número aleatório entre 1 e 10, e verifica se a pessoa ganhou ou não. Em caso de ter
+                ganhado, mostra o prêmio, se não ganhou, mostra outra mensagem.</h2>
+            <div id="testes">
+                <input type="text" id="numeroSorteio" placeholder="Número da sorte" disabled>
+                <input type="text" id="numeroSorteado" placeholder="Número sorteado" disabled> =
+                <input type="text" id="resultSorteio" disabled placeholder="Resultado do sorteio">
+            </div>
+            <div id="buttons">
+                <button onclick="numeroSorteio()">Executar</button>
+                <button onclick="limparNumeroSorteio()">Limpar campos</button>
+            </div>
+
+        </article>
+    </section>
+    
+</body>
+
+</html>
